@@ -27,6 +27,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Proyectos</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educacion</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
@@ -44,10 +45,10 @@
                         <span class="text-primary">Paniagua</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Córdoba, Argentina, CP 5000 · +549 0351 155-333640 ·
+                        Córdoba, Argentina, CP 5000 · <a href="https://wa.me/+5493515333640">+5493515333640</a> ·
                         <a href="mailto:danterpaniagua@gmail.com">danterpaniagua@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">Tengo más de 10 años de experiencia en Operaciones, desempeñando roles como Desktop Support, Network Administrator, Sys Admin (Windows / Linux) y Seguridad Informática. He trabajado con diversas tecnologías tanto FOOS como con licencia. Actualmente, estoy enfocado en desarrollar e implementar un esquema CI/CD con Jenkins + Azure VMs. Además, estoy cursando una Certificación Universitaria de DevOps.</p>
+                    <p class="lead mb-5">Tengo más de 10 años de experiencia en Operaciones, desempeñando roles como Desktop Support, Network Administrator, Sys Admin (Windows / Linux) y Seguridad Informática. He trabajado con diversas tecnologías tanto FOOS como con Licencia. Actualmente, estoy enfocado en desarrollar e implementar un esquema CI/CD con Jenkins + Azure VMs. Además, estoy cursando una Certificación Universitaria de DevOps.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/dante-paniagua-831a2340"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
@@ -68,7 +69,7 @@
                             <div class="subheading mb-3">SmartFran</div>
                             <p>Diseño e Implementación de CI/CD con Jenkins
                                 Securizacion de aplicaciones mediate Azure WAF
-                                Administracion de VMs via azure cli (instalaciones de aplicaciones, instalacion de features, automatiaciones de mantenimiento)
+                                Administración de VMs via Azure CLI (instalación de aplicaciones, features, automatizaciones de mantenimiento)
                                 Implementación de sistema de monitorización y alertas con Zabbix
                                 Integraciones realizadas con Python y Powershell.</p>
                             
@@ -142,6 +143,52 @@
                 </div>
             </section>
             <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">CI / CD para proyecto en Net Framework 4.8</h3>
+                        <p>El proyecto consiste en la implementación de CI/CD para una solución desarrollada en Net Framework.</p>
+                        <p>Para poder llevar a cabo la tarea se desplegó y configuro desde cero Jenkins, Sonarqube y se armaron scripts Powershell customizados</p>
+                        <p>El SCM elegido fue Github pero, al ser un software desarrollado en Net Framework no fue posible implementar Github Actions. Se opto por hacerlo en Jenkins corriendo en Windows Server 2019.</p>
+                        <p>Se utilizan los Pipelines de Jenkins en un Job declarativo trayendo el codigo desde Github y almacenándolo en un repositorio local en la VM de Jenkins.</p>
+                        <p>Se envían mensajes a través de Telegram y Google Chat para informar el estado del despliegue.</p>
+                        <p>El resultado de la compilación es enviado para su análisis a Sonarqube.</p>
+                        <p>Los artefactos son almacenados en el repo local con información de hash de archivo (SHA256).</p>
+                        
+                        <img class="img-fluid" src="assets/img/jenkins_project_sites_github.png" alt="Implementacion de CI/CD" >
+                        
+                        <h4 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
+
+                        <ul class="fa-ul mb-0">
+                            <li> 
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Powershell
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Azure VM
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Sonarqube
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                WIndows Server</li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                Jenkins
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-check"></i></span>
+                                MarkDown
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2013</span></div>
+                </div>
+            </section>
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
@@ -212,7 +259,7 @@
                         <li class="list-inline-item"><img src="assets/img/sonarqube.png" alt="SonarQube" style="height:100px; margin: 8px 8px"></li>
                     </ul>
                     -->
-                    <div class="subheading mb-3">Workflow</div>
+                <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -231,7 +278,7 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Intereses</h2>
                     <p>Aparte de ser un entusiasta de la tecnología, me gusta pasar la mayor parte del tiempo al aire libre con mi hijo. En invierno, me gusta pasar tiempo en casa leyendo o haciendo algun que otro viaje. En los meses más cálidos, aquí en Córdoba, me gusta la bicicleta y caminar.</p>
-                    <p class="mb-0">Cuando me veo obligado a estar en casa, sigo varias películas y programas de televisión de ciencia ficción, fantasía. Me gustan los documentales, docuseries y biopics. Esto cuando noestoy  explorando los últimos avances tecnológicos en el mundo tecnologico.</p>
+                    <p class="mb-0">Cuando me veo obligado a estar en casa, sigo varias películas y programas de televisión de ciencia ficción, fantasía. Me gustan los documentales, docuseries y biopics. Esto cuando no estoy  explorando los últimos avances tecnológicos en el mundo tecnologico.</p>
                 </div>
             </section>
             <hr class="m-0" />
