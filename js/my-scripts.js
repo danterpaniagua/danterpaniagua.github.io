@@ -20,5 +20,4 @@ modal.onclick = function() {
        modal.style.display = "none";
        img01.className = "modal-content";
      }, 400);
-    
- }    
+}
