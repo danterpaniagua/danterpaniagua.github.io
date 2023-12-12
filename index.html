@@ -144,57 +144,91 @@
             <hr class="m-0" />
             <!-- Projects-->
             <section class="resume-section" id="projects">
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0" >CI / CD para proyecto en Net Framework 4.8</h3>
-                        <p style="margin: 30px 0;">El proyecto consiste en la implementación de CI/CD para una solución desarrollada en Net Framework.</p>
-                        <p>Para poder llevar a cabo la tarea se desplegó y configuro desde cero Jenkins, Sonarqube y se armaron scripts Powershell customizados</p>
-                        <p>El SCM elegido fue Github pero, al ser un software desarrollado en Net Framework no fue posible implementar Github Actions. Se opto por hacerlo en Jenkins corriendo en Windows Server 2019.</p>
-                        <p>Se utilizan los Pipelines de Jenkins en un Job declarativo trayendo el codigo desde Github y almacenándolo en un repositorio local en la VM de Jenkins.</p>
-                        <p>Se envían mensajes a través de Telegram y Google Chat para informar el estado del despliegue.</p>
-                        <p>El resultado de la compilación es enviado para su análisis a Sonarqube.</p>
-                        <p>Los artefactos son almacenados en el repo local con información de hash de archivo (SHA256).</p>
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Proyectos</h2>
+                    <div class="card w-75" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Personal (Este Sitio)</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">2023</h6>
+                            <p class="card-text">
+                                Este proyecto es un Fork del repositorio <a href="https://github.com/StartBootstrap/startbootstrap-resume">startbootstrap-resume</a> al cual se le agrego un poco de Javascript, CSS y HTML.
+                                <h4 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
+                                <ul class="fa-ul mb-0">
+                                    <li> 
+                                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                                        Github
+                                    </li>
+                                    <li>
+                                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                                        HTML5
+                                    </li>
+                                    <li>
+                                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                                        CSS
+                                    </li>
+                                    <li>
+                                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                                        Javascript
+                                    </li>
+                                    <li>
+                                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                                        Bootstrap5
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
 
-                        <img id="myImg" src="assets/img/jenkins_project_sites_github.png" alt="Implementacion de CI/CD" width="50%">
-
+                    <div class="card w-75" style="width: 18rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">CI / CD para proyecto en Net Framework 4.8</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">2023</h6>
+                        <img class="card-img-top" id="myImg" src="assets/img/jenkins_project_sites_github.png" alt="Implementacion de CI/CD" width="50%">
                         <div id="myModal" class="modal">
                             <img class="modal-content" id="img01">
-                         <div id="caption"></div>
-                         </div>
-                        
-                        <h4 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
-
-                        <ul class="fa-ul mb-0">
-                            <li> 
-                                <span class="fa-li"><i class="fas fa-check"></i></span>
-                                Powershell
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-check"></i></span>
-                                Azure VM
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-check"></i></span>
-                                Sonarqube
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-check"></i></span>
-                                WIndows Server</li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-check"></i></span>
-                                Jenkins
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-check"></i></span>
-                                MarkDown
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fas fa-check"></i></span>
-                                Docker / Docker Scan / Snyk
-                            </li>
-                        </ul>
+                            <div id="caption"></div>
+                        </div>
+                        <p class="card-text">
+                            <p>El proyecto consiste en la implementación de CI/CD para una solución desarrollada en Net Framework.</p>
+                            <p>Para poder llevar a cabo la tarea se desplegó y configuro desde cero Jenkins, Sonarqube y se armaron scripts Powershell customizados</p>
+                            <p>El SCM elegido fue Github pero, al ser un software desarrollado en Net Framework no fue posible implementar Github Actions. Se opto por hacerlo en Jenkins corriendo en Windows Server 2019.</p>
+                            <p>Se utilizan los Pipelines de Jenkins en un Job declarativo trayendo el codigo desde Github y almacenándolo en un repositorio local en la VM de Jenkins.</p>
+                            <p>Se envían mensajes a través de Telegram y Google Chat para informar el estado del despliegue.</p>
+                            <p>El resultado de la compilación es enviado para su análisis a Sonarqube.</p>
+                            <p>Los artefactos son almacenados en el repo local con información de hash de archivo (SHA256).</p>
+                            <h4 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
+                            <ul class="fa-ul mb-0">
+                                <li> 
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Powershell
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Azure VM
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Sonarqube
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    WIndows Server</li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Jenkins
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    MarkDown
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Docker / Docker Scan / Snyk
+                                </li>
+                            </ul>
+                        </p>
+                        </div>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">2023</span></div>
                 </div>
             </section>
             <!-- Education-->
@@ -283,10 +317,11 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Intereses</h2>
-                    <p>Aparte de ser un entusiata tecnológico me gusta escuchar música preferentemente Rock y Metal en cualquiera de sus sabores tambien ir a ver recitales en vivo. Mis bandas favoritas son Iron Maiden, Dream Theater, Bon Jovi</p> 
-                    <p>Amo el cine, me gusta ver Peliculas, Documentales y Biopics. Mis películas favoritas son El Padrino I y II, LOTR, Scarface, Harry Potter.</p>
-                    <p>Leo bastante, me gusta leer de Historia, No Ficcion, SCI Fi. Mi usltimos libros fueron When McKinsey Comes to Town de Walt Bogdanich & Michael Forsythe, Historia intelectual del siglo XX de Peter Watson, y ¿Quién domina el mundo? de Noam Chomsky.</p>
+                    <p>Aparte de ser un entusiasta tecnológico me gusta escuchar música preferentemente Rock y Metal en cualquiera de sus sabores, tambien ir a ver recitales en vivo. Mis bandas favoritas son Iron Maiden, Dream Theater, Bon Jovi</p> 
+                    <p>Amo el cine, me gusta ver Películas, Documentales y Biopics. Mis películas favoritas son El Padrino I y II, LOTR, Scarface, Harry Potter.</p>
+                    <p>Leo bastante, me gustan los generos de Historia, No Ficcion, SCI Fi. Mi últimos libros fueron When McKinsey Comes to Town de Walt Bogdanich & Michael Forsythe, Historia intelectual del siglo XX de Peter Watson, y ¿Quién domina el mundo? de Noam Chomsky.</p>
                     <p>Fan empedernido del Anime, Adult Swim; Bojack Horseman y el Dulce de Leche.</p>
+                    <p>Muerte a las empanadas con pasas de uva, a la Pizza con Ananá y a la Pastafrola con Batata</p>
                 </div>
             </section>
             <hr class="m-0" />

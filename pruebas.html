@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+
+        <div class="card w-75" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title">CI / CD para proyecto en Net Framework 4.8</h5>
+            <h6 class="card-subtitle mb-2 text-muted">2023</h6>
+            <img class="card-img-top" id="myImg" src="assets/img/jenkins_project_sites_github.png" alt="Implementacion de CI/CD" width="50%">
+            <div id="myModal" class="modal">
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+            <p class="card-text">
+                <p>El proyecto consiste en la implementación de CI/CD para una solución desarrollada en Net Framework.</p>
+                <p>Para poder llevar a cabo la tarea se desplegó y configuro desde cero Jenkins, Sonarqube y se armaron scripts Powershell customizados</p>
+                <p>El SCM elegido fue Github pero, al ser un software desarrollado en Net Framework no fue posible implementar Github Actions. Se opto por hacerlo en Jenkins corriendo en Windows Server 2019.</p>
+                <p>Se utilizan los Pipelines de Jenkins en un Job declarativo trayendo el codigo desde Github y almacenándolo en un repositorio local en la VM de Jenkins.</p>
+                <p>Se envían mensajes a través de Telegram y Google Chat para informar el estado del despliegue.</p>
+                <p>El resultado de la compilación es enviado para su análisis a Sonarqube.</p>
+                <p>Los artefactos son almacenados en el repo local con información de hash de archivo (SHA256).</p>
+                <h4 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
+                <ul class="fa-ul mb-0">
+                    <li> 
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Powershell
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Azure VM
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Sonarqube
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        WIndows Server</li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Jenkins
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        MarkDown
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        Docker / Docker Scan / Snyk
+                    </li>
+                </ul>
+            </p>
+            </div>
+        </div>
+
+
+    
+    </div>
+
+    <!--Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <link href="css/my-style.css" rel="stylesheet" />
+</body>
+</html>
