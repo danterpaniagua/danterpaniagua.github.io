@@ -40,15 +40,16 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Proyectos</a></li>
                     <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educacion</a></li>-->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#soft-skils">Habilidades Blandas</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Intereses</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Cursos</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" style="border: 1px solid blue;  width: 95%;">
             <!-- About-->
-            <section class="resume-section" id="about">
+            <section class="resume-section" id="about" style="width: 95%; padding-left: 5%;">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
                         Dante
@@ -70,8 +71,21 @@
                 </div>
             </section>
             <hr class="m-0" />
+            <!--Soft Skills-->
+            <section class="resume-section" id="soft-skils" style="width: 95%; padding-left: 5%;">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Soft Skills</h2>
+                    <ul>
+                        <li>Comunicación efectiva</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Capacidad de análisis</li>
+                        <li>Capacidad de detección de riesgos</li>
+                        <li>Creatividad</li>
+                    </ul>
+                </div>
+            </section>
             <!-- Experience-->
-            <section class="resume-section" id="experience">
+            <section class="resume-section" id="experience" style="width: 95%; padding-left: 5%;">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experiencia</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -153,16 +167,16 @@
             </section>
             <hr class="m-0" />
             <!-- Projects-->
-            <section class="resume-section" id="projects" style="width: 100%;">
+            <section class="resume-section" id="projects" style="width: 95%; padding-left: 5%;">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Proyectos</h2>
-                    <div class="card" style="width: 95%;">
+                    <div class="card" style="width: 95%; margin-top: 10px;">
                         <div class="card-body">
-                            <h5 class="card-title">Portfolio Personal (Este Sitio)</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">2023</h6>
+                            <h4 class="card-title text-center">Portfolio Personal (Este Sitio)</h5>
+                            <h5 class="card-subtitle mb-2 text-muted text-center">2023</h6>
                             <p class="card-text">
                                 Este proyecto es un Fork del repositorio <a href="https://github.com/StartBootstrap/startbootstrap-resume">startbootstrap-resume</a> al cual se le agrego un poco de Javascript, CSS y HTML.
-                                <h4 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
+                                <h6 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
                                 <ul class="fa-ul mb-0">
                                     <li> 
                                         <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -189,10 +203,10 @@
                         </div>
                     </div>
 
-                    <div class="card" style="width: 95%;">
+                    <div class="card" style="width: 95%; margin-top: 10px;">
                         <div class="card-body">
-                        <h5 class="card-title">CI / CD para proyecto en Net Framework 4.8</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">2023</h6>
+                        <h4 class="card-title text-center">CI / CD para proyecto en Net Framework 4.8</h5>
+                        <h5 class="card-subtitle mb-2 text-muted text-center">2023</h6>
                         <img class="card-img-top" id="myImg" src="assets/img/jenkins_project_sites_github.png" alt="Implementacion de CI/CD" width="50%">
                         <div id="myModal" class="modal">
                             <img class="modal-content" id="img01">
@@ -207,7 +221,7 @@
                             <p>El resultado de la compilación es enviado para su análisis a Sonarqube.</p>
                             <p>Los artefactos son almacenados en el repo local con información de hash de archivo (SHA256).</p>
                             <p>Este proyecto aportó un enfoque velocidad en el despliegue, automatizo los tests y agilizo la comunicacion entre QA y Desarrollo.</p>
-                            <h4 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
+                            <h6 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
                             <ul class="fa-ul mb-0">
                                 <li> 
                                     <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -242,10 +256,10 @@
                     </div>
 
 
-                    <div class="card" style="width: 95%;">
+                    <div class="card" style="width: 95%; margin-top: 10px;">
                         <div class="card-body">
-                        <h5 class="card-title">Diseño y Despliegue de Aplicaciones con Docker</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">2021</h6>
+                        <h4 class="card-title text-center">Diseño y Despliegue de Aplicaciones con Docker</h5>
+                        <h5 class="card-subtitle mb-2 text-muted text-center">2021</h6>
                         <img class="card-img-top" id="myImg" src="assets/img/infrestructura_tdc.png" alt="Diseño de Infrestructura" width="50%">
                         <div id="myModal" class="modal">
                             <img class="modal-content" id="img02">
@@ -260,8 +274,8 @@
                             <p>Toda la infrestructura esta siendo monitorizada via Zabbix.</p>
                             <p>Se implementa un esquema simple de Backups mediante BASH + CRON + RSYNC.</p>
                             <p>Se creo una integración en python que genera y actualiza tickets en ITop a partir de Problems de Zabbix</p>
-                            <p>La organizacion no contaba con Herramientas de Tickets, Gestion, Mensajeria, ni sitio oficial. Esta implementacion mejoró la productividad y el control en las áreas de Operaciones y areas de Gestión de Proyectos. RocketChat aportó un medio de comunicación instantánea organziacional ya que antes se manejaban via WhatsApp</p>
-                            <h4 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
+                            <p>La organizacion no contaba con Herramientas de Tickets, Gestion, Mensajeria, ni sitio oficial. Esta implementacion mejoró la productividad y el control en las áreas de Operaciones y Gestión de Proyectos. RocketChat aportó un medio de comunicación instantánea organziacional ya que antes se manejaban via WhatsApp</p>
+                            <h6 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
                             <ul class="fa-ul mb-0">
                                 <li> 
                                     <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -333,7 +347,7 @@
             </section>-->
             <hr class="m-0" />
             <!-- Skills-->
-            <section class="resume-section" id="skills">
+            <section class="resume-section" id="skills" style="width: 95%; padding-left: 5%;">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3" style="position: relative; display: block; top: 20px; bottom: 2%;">Lenguajes, Tecnologías y Herramientas</div>
@@ -356,26 +370,6 @@
                         <img src="assets/img/sonarqube.png" alt="SonarQube" style="height:100px; margin: 8px 8px">
                         <img src="assets/img/zabbix.png" alt="Zabbix" style="height:100px; margin: 8px 8px">
                     </div>
-                    <!--
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><img src="assets/img/azure.png" alt="Microsoft Azure" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/windows-server.png" alt="Microsoft Windows Server" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/microsoft-sql-server-logo.svg" alt="Microsoft SQL" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/ubuntu.png" alt="Ubuntu" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/oracle_linux.jpg" alt="Oracle Linux" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/oracle.png" alt="Oracle" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/powershel.png" alt="Powershell" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/Python.png" alt="Python" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/django-icon-0.png" alt="Django" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/bash.png" alt="Bash" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/awk.png" alt="AWK" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/jenkins.jpg" alt="Jenkins" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/pulumi.png" alt="Pulumi" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/gitlab.png" alt="Gitlab" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/github.png" alt="Github" style="height:100px; margin: 8px 8px"></li>
-                        <li class="list-inline-item"><img src="assets/img/sonarqube.png" alt="SonarQube" style="height:100px; margin: 8px 8px"></li>
-                    </ul>
-                    -->
                 <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
                         <li>
@@ -391,7 +385,7 @@
             </section>
             <hr class="m-0" />
             <!-- Interests-->
-            <section class="resume-section" id="interests">
+            <section class="resume-section" id="interests" style="width: 95%; padding-left: 5%;">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Intereses</h2>
                     <p>Aparte de ser un entusiasta tecnológico me gusta escuchar música preferentemente Rock y Metal en cualquiera de sus sabores, tambien ir a ver recitales en vivo. Mis bandas favoritas son Iron Maiden, Dream Theater, Bon Jovi</p> 
@@ -403,7 +397,7 @@
             </section>
             <hr class="m-0" />
             <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <section class="resume-section" id="awards" style="width: 95%; padding-left: 5%;">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Cursos</h2>
                         <ul class="fa-ul mb-0">
