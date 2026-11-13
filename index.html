@@ -1,510 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1HTSRS0X3"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<html lang="es">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1HTSRS0X3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Q1HTSRS0X3');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CV de Dante Paniagua, DevOps Architect en Córdoba, Argentina: CI/CD, observabilidad, Azure, AWS y automatización.">
+<meta name="author" content="Dante Paniagua">
+<title>CV - Dante Paniagua</title>
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="icon" type="image/x-icon" sizes="any" href="assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="alternate" hreflang="en" href="en/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+<link href="css/modern.css" rel="stylesheet">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#about">Dante<span>Paniagua</span></a>
+    <nav id="nav" class="nav" aria-label="Main"><a href="#about">Acerca de</a><a href="#experience">Experiencia</a><a href="#projects">Proyectos</a><a href="#skills">Skills</a><a href="#interests">Intereses</a><a href="#courses">Cursos</a></nav>
+    <div class="tools">
+      <a class="pill" href="en/" hreflang="en" lang="en"><i class="fas fa-language"></i> English</a>
+      <button class="icon-btn" id="theme" type="button" aria-label="Cambiar tema"><i class="fas fa-circle-half-stroke"></i></button>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Menú" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+<main>
+<section id="about" class="hero">
+  <div class="wrap hero-in">
+    <img class="avatar" src="assets/img/profile.jpg" alt="Dante Paniagua" width="168" height="168">
+    <div>
+      <p class="eyebrow">SRE · DevOps Architect</p>
+      <h1>Dante <span class="grad">Paniagua</span></h1>
+      <p class="tagline">Confiabilidad · Observabilidad · CI/CD · Cloud</p>
+      <p class="lead">Más de 10 años en operaciones de TI, con roles como Desktop Support, Network Administrator, SysAdmin (Windows / Linux) y Seguridad Informática. Hoy trabajo como SRE y DevOps Architect: cuido la confiabilidad de las plataformas con monitoreo y alertas, consolidación de logs, diagnóstico de incidentes con evidencia y cambios verificados, y diseño pipelines CI/CD con controles de calidad y seguridad sobre Azure y AWS. Cuento con una Certificación Universitaria en DevOps.</p>
+      <ul class="chips"><li>+10 años en operaciones de TI</li><li>SRE / DevOps Architect en SmartFran</li><li>Córdoba, Argentina</li></ul>
+      <div class="actions">
+        <a class="btn" href="mailto:danterpaniagua@gmail.com"><i class="fas fa-envelope"></i> Contacto</a>
+        <a class="btn ghost" href="https://wa.me/+5493515333640"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <span class="socials">
+          <a href="https://www.linkedin.com/in/dante-paniagua-831a2340" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/danterpaniagua/" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://gitlab.com/taten14" aria-label="GitLab"><i class="fab fa-gitlab"></i></a>
+          <a href="https://learn.microsoft.com/es-es/users/dantepaniagua-5800/" aria-label="Microsoft Learn"><i class="fab fa-microsoft"></i></a>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
 
-        gtag('config', 'G-Q1HTSRS0X3');
-        </script>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Resume - Dante Paniagua</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/my-style.css" rel="stylesheet" />
-        </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Dante Paniagua</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Proyectos</a></li>
-                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educacion</a></li>-->
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#soft-skils">Habilidades Blandas</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Intereses</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Cursos</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0" style="width: 95%;">
-            <!-- About-->
-            <section class="resume-section" id="about" style="width: 95%; padding-left: 5%;">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Dante
-                        <span class="text-primary">Paniagua</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        Córdoba, Argentina, CP 5000 · <a href="https://wa.me/+5493515333640">+5493515333640</a> ·
-                        <a href="mailto:danterpaniagua@gmail.com">danterpaniagua@gmail.com</a>
-                    </div>
-                    <p class="lead mb-5">Tengo más de 15 años de experiencia en Operaciones, desempeñando roles como Desktop Support, Network Administrator, Sys Admin (Windows / Linux) y
-                         Seguridad Informática. He trabajado con diversas tecnologías tanto 
-                         FOOS como con Licencia. 
-                         Actualmente, estoy enfocado en desarrollar mis habilidades como DevOps 
-                         implementando esquemas CI/CD con Jenkins + Azure y AWS.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/dante-paniagua-831a2340"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/danterpaniagua/"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://gitlab.com/taten14"><i class="fab fa-gitlab"></i></a>
-                        <a class="social-icon" href="https://learn.microsoft.com/es-es/users/dantepaniagua-5800/"><i class="fab fa-microsoft"></i></a>
-                        
-                        <!--<a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>-->
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience" style="width: 95%; padding-left: 5%;">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experiencia</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">DevOps Architect</h3>
-                            <div class="subheading mb-3">SmartFran</div>
-                            <p>Se realizó desde cero el diseño e Implementación de CI/CD con Jenkins, utilizando revisión de código con Sonarqube y Arctifactory con Nexus.
-                                La securización de las aplicaciones se efectuaron mediante Azure WAF y firewalls.
-                                Implementación de sistema de monitorización y alertas con Zabbix y Graylog para el analisis de Logs
-                                Todas las automatizaciones se realizan con Python y Powershell.
-                            </p>
-                            
-                            <h4 class="mb-0">Aptitudes</h4>
-                            <ul>
-                                <li>Creacion de Ducumentacion</li>
-                                <li>Definición de requisitos</li>
-                                <li>Buena práctica clínica</li>
-                                <li>Computación en la nube</li>
-                                <li>Resolución de incidencias</li>
-                                <li>Powershell</li>
-                                <li>Linux SysAdmin</li>
-                                <li>Windows Server SysAdmin</li>
-                                <li>SQL Server</li>
-                                <li>Opensearch + Mongo + Graylog</li>
-                                <li>Docker</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Diciembre 2021 - Actualidad</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">SysAdmin</h3>
-                            <div class="subheading mb-3">Tribunal de Cuentas de la Provincia de Córdoba</div>
-                            <ul>
-                                <li>Implementación de nuevos sistemas basados en Linux / Windows, administración de Red del Tribunal con tecnología Fortinet, administración de permisos y creación de GPOs en Active Directory, Realizando tareas de mantenimiento preventivo y evolutivo de sistemas, Administración, diseño y monitoreo de entornos de Desarrollo / QA / UAT y Producción.</li>
-                                <li>Administración de servicios de correo electrónico basado en Linux.</li>
-                                <li>Automatización de creación de reportes con Python / MariaDB / Mysql / Bash / Powershell.</li>
-                                <li>Automatización de instalación de Software en Active Directory utilizando Python / Powershell.</li>
-                                <li>Reporting con PowerBI</li>
-                                <li>Automatización de pruebas de APIs con Python3, .Net, Postman y SOAP.</li>
-                                <li>Despliegue e implementación de Software de Gestión de Tickets, Gestion de Proyectos y MonitorizacionAutomatización de pruebas de APIs con Python3, .Net, Postman y SOAP. Implementación de Software de Gestión de Tickets, Gestion de Proyectos y Monitorizacion </li>
-                                <li>Implemento LATeX para escribir documentacion oficial del area</li>
-                            </ul>
-                            <h4 class="mb-0">Aptitudes</h4>
-                            <ul>
-                                <li>Creacion de Ducumentacion en LATeX</li>
-                                <li>Definición de requisitos</li>
-                                <li>Buena práctica clínica</li>
-                                <li>OpenLDAP</li>
-                                <li>Active Directory</li>
-                                <li>Powershell</li>
-                                <li>Fortigate</li>
-                                <li>Windows Server SysAdmin</li>
-                                <li>MySQL</li>
-                                <li>Oracle</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Octubre 2018 - Febrero 2020</span></div>
-                    </div>
+<section id="experience" class="sec">
+  <div class="wrap">
+    <h2><span>01</span>Experiencia</h2>
+    <div class="timeline">
+      <article class="job">
+        <div class="job-head"><div><h3>DevOps Architect / Platform SRE</h3><p class="company">SmartFran</p></div><span class="date">Diciembre 2021 - Actualidad</span></div>
+        <ul><li>Monitoreo y alertas con Zabbix, y consolidación de logs con Graylog (Event Hubs, Logstash, Terraform) para detectar y diagnosticar problemas en producción.</li><li>Diagnóstico de incidentes con informes de evidencia, separando lo confirmado de las hipótesis, y cambios en producción con verificación previa y plan de reversa.</li><li>Diseño y operación de pipelines CI/CD con Jenkins (librería Groovy compartida), análisis de código con SonarQube y escaneo de vulnerabilidades con Trivy, para productos en .NET Framework / IIS y Node.js / Docker sobre AWS ECS Fargate.</li><li>Securización de aplicaciones con Azure WAF y NSG; administración de VMs de Azure vía Azure CLI.</li><li>Automatizaciones con Python y PowerShell.</li><li>Documentación viva junto al código: índice por proyecto, una página por ambiente y por componentes compartidos, y README de la infraestructura como código, para que los pipelines se entiendan y reutilicen.</li></ul>
+      </article>
+      <article class="job">
+        <div class="job-head"><div><h3>SysAdmin Linux / Windows</h3><p class="company">Tribunal de Cuentas de la Provincia de Córdoba</p></div><span class="date">Marzo 2020 - Marzo 2022</span></div>
+        <ul><li>Implementación de sistemas basados en Linux / Windows y administración de la red con tecnología Fortinet.</li><li>Administración de permisos y GPOs en Active Directory; mantenimiento preventivo y evolutivo de sistemas.</li><li>Administración, diseño y monitoreo de entornos de Desarrollo / QA / UAT y Producción.</li><li>Administración de servicios de correo electrónico basados en Linux.</li><li>Automatización de reportes (Python, MariaDB / MySQL, Bash, PowerShell), de instalación de software vía Active Directory, y reportes con PowerBI.</li></ul>
+      </article>
+      <article class="job">
+        <div class="job-head"><div><h3>API Tester e Implementador de Sistemas</h3><p class="company">Tribunal de Cuentas de la Provincia de Córdoba</p></div><span class="date">Febrero 2019 - Diciembre 2021</span></div>
+        <ul><li>Automatización de pruebas de APIs con Python 3, .NET, Postman y SOAP.</li><li>Implementación de software de gestión de tickets, gestión de proyectos y monitorización.</li></ul>
+      </article>
+      <article class="job">
+        <div class="job-head"><div><h3>Analista</h3><p class="company">VATES</p></div><span class="date">Agosto 2021 - Diciembre 2021</span></div>
+        <ul><li>Soporte sobre la herramienta TEMIP, desarrollo de módulos de acceso SNMP y scripts en Bash.</li></ul>
+      </article>
+      <article class="job">
+        <div class="job-head"><div><h3>IT Network Manager</h3><p class="company">Darwoft</p></div><span class="date">Octubre 2018 - Febrero 2020</span></div>
+        <ul><li>Tareas de SysAdmin, administración de red, Help Desk y DevOps.</li><li>Implementación de servicios de IT (inventario, tickets) y reportes mediante consultas SQL / OQL / APIs.</li></ul>
+      </article>
+      <article class="job">
+        <div class="job-head"><div><h3>IT Help Desk</h3><p class="company">Ascentio Technologies</p></div><span class="date">Julio 2013 - Septiembre 2018</span></div>
+        <ul><li>Mantenimiento, soporte y configuración de PC, notebooks y servidores; inventario, control de stock y compras de caja chica.</li><li>Instalación, montaje y mantenimiento preventivo / evolutivo de servidores y equipos de telecomunicaciones.</li><li>Creación y actualización de máquinas virtuales con Libvirt y VMware; cableado estructurado en 3 oficinas nuevas.</li></ul>
+      </article>
+      <article class="job">
+        <div class="job-head"><div><h3>Team Leader</h3><p class="company">Jazzplat</p></div><span class="date">Junio 2006 - Julio 2012</span></div>
+        <ul><li>Supervisión de soporte técnico y configuración para clientes de servicios masivos de telefonía fija y móvil, cumpliendo metas de métricas.</li><li>Coordinación de equipos, capacitación técnica e inducción de personal.</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Help Desk</h3>
-                            <div class="subheading mb-3">
-                                IT Help Desk / CONAE</div>
-                                <p>Realizo tareas de mantenimiento, soporte y configuración de PC, Notebooks y Servodores, asi como tambien tareas de inventariado ,control de stock, compras de caja chica; instalación y montaje y mantenimiento preventivo / evolutivo de servidores y equipos de telecomunicaciones, creacion y actualizacion de maquinas virtuales con libvirt y vmware. Tambien he realizado instalaciones de cableado estructurado en las 3 nuevas oficinas</p>
-                            <h4 class="mb-0">Aptitudes</h4>
-                            <ul>
-                                <li>Definición de requisitos</li>
-                                <li>Python3</li>
-                                <li>OpenLDAP</li>
-                                <li>Powershell</li>
-                                <li>Mikrotik</li>
-                                <li>MySQL</li>
-                                <li>Azure DevpOps</li>
-                                <li>LATeX</li>
-                            </ul>
-                        </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Julio 2013 - Septiembre 2018</span></div>                  
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Projects-->
-            <section class="resume-section" id="projects" style="width: 95%; padding-left: 5%;">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Proyectos</h2>
-                    <div class="card" style="width: 95%; margin-top: 10px;">
-                        <div class="card-body">
-                            <h4 class="card-title text-center">Portfolio Personal (Este Sitio)</h5>
-                            <h5 class="card-subtitle mb-2 text-muted text-center">2023</h6>
-                            <p class="card-text">
-                                Este proyecto es un Fork del repositorio <a href="https://github.com/StartBootstrap/startbootstrap-resume">startbootstrap-resume</a> al cual se le agrego un poco de Javascript, CSS y HTML.
-                                <h6 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
-                                <ul class="fa-ul mb-0">
-                                    <li> 
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Github
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        HTML5
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        CSS
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Javascript
-                                    </li>
-                                    <li>
-                                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                                        Bootstrap5
-                                    </li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 95%; margin-top: 10px;">
-                        <div class="card-body">
-                        <h4 class="card-title text-center">CI / CD para proyecto en Net Framework 4.8</h5>
-                        <h5 class="card-subtitle mb-2 text-muted text-center">2023</h6>
-                        <img class="card-img-top" id="myImg" src="assets/img/jenkins_project_sites_github.png" alt="Implementacion de CI/CD" width="50%">
-                        <div id="myModal" class="modal">
-                            <img class="modal-content" id="img01">
-                        <div id="caption"></div>
-                        </div>
-                        <p class="card-text">
-                            <p>El proyecto consiste en la implementación de CI/CD para una solución desarrollada en Net Framework.</p>
-                            <p>Para poder llevar a cabo la tarea se desplegó y configuro desde cero Jenkins, Sonarqube y se armaron scripts Powershell customizados</p>
-                            <p>El SCM elegido fue Github pero, al ser un software desarrollado en Net Framework no fue posible implementar Github Actions. Se opto por hacerlo en Jenkins corriendo en Windows Server 2019.</p>
-                            <p>Se utilizan los Pipelines de Jenkins en un Job declarativo trayendo el codigo desde Github y almacenándolo en un repositorio local en la VM de Jenkins.</p>
-                            <p>Se envían mensajes a través de Telegram y Google Chat para informar el estado del despliegue.</p>
-                            <p>El resultado de la compilación es enviado para su análisis a Sonarqube.</p>
-                            <p>Los artefactos son almacenados en el repo local con información de hash de archivo (SHA256).</p>
-                            <p>Este proyecto aportó un enfoque velocidad en el despliegue, automatizo los tests y agilizo la comunicacion entre QA y Desarrollo.</p>
-                            <h6 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
-                            <ul class="fa-ul mb-0">
-                                <li> 
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Powershell
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Azure VM
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Sonarqube
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Windows Server</li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Jenkins
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    MarkDown
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Docker / Docker Scan / Snyk
-                                </li>
-                            </ul>
-                        </p>
-                        </div>
-                    </div>
-
-
-                    <div class="card" style="width: 95%; margin-top: 10px;">
-                        <div class="card-body">
-                        <h4 class="card-title text-center">Diseño y Despliegue de Aplicaciones con Docker</h5>
-                        <h5 class="card-subtitle mb-2 text-muted text-center">2021</h6>
-                        <img class="card-img-top" id="myImg" src="assets/img/infrestructura_tdc.png" alt="Diseño de Infrestructura" width="50%">
-                        <div id="myModal" class="modal">
-                            <img class="modal-content" id="img02">
-                        <div id="caption"></div>
-                        </div>
-                        <p class="card-text">
-                            <p>Este proyecto me llevo a diseñar todos los entornos para desplegar aplicaciones que luego serian Core en el dia a dia de la organización.</p>
-                            <p>Se generaron 2 entornos DESA y PROD, el primero OnPrem y el segundo en la nube.</p>
-                            <p>El SCM elegido fue Github. No se implementaron Actions.</p>
-                            <p>Para analizar los contenedores se utilizo <a href="https://snyk.io/">Snyk</a>.</p>
-                            <p>Se utilizo OpenLDAP para proveer Identidad a las aplicaciones.</p>
-                            <p>Toda la infrestructura esta siendo monitorizada via Zabbix.</p>
-                            <p>Se implementa un esquema simple de Backups mediante BASH + CRON + RSYNC.</p>
-                            <p>Se creo una integración en python que genera y actualiza tickets en ITop a partir de Problems de Zabbix</p>
-                            <p>La organizacion no contaba con Herramientas de Tickets, Gestion, Mensajeria, ni sitio oficial. Esta implementacion mejoró la productividad y el control en las áreas de Operaciones y Gestión de Proyectos. RocketChat aportó un medio de comunicación instantánea organziacional ya que antes se manejaban via WhatsApp</p>
-                            <h6 class="mb-0" style="padding: 20px 0 20px 0;">Tecnologías</h4>
-                            <ul class="fa-ul mb-0">
-                                <li> 
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Docker
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Linux
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Zabbix
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    BASH + Ruby on Rails + Python
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Github
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    NGINX
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    MarkDown
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    Docker / Docker Scan / Snyk
-                                </li>
-                                <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                                    OpenLDAP
-                                </li>
-                            </ul>
-                        </p>
-                        </div>
-                    </div>
-
-
-                    
-                </div>
-            </section>
-            <!-- Education-->
-            <!--<section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
-                    </div>
-                </div>
-            </section>-->
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills" style="width: 95%; padding-left: 5%;">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3" style="position: relative; display: block; top: 20px; bottom: 2%;">Lenguajes, Tecnologías y Herramientas</div>
-                    <div class="container-fluid" style="margin:0 5%;">
-                        <img src="assets/img/azure.png" alt="Microsoft Azure" style="height:100px; margin:0 8px;">
-                        <img src="assets/img/windows-server.png" alt="Microsoft Windows Server" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/microsoft-sql-server-logo.svg" alt="Microsoft SQL" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/ubuntu.png" alt="Ubuntu" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/oracle_linux.jpg" alt="Oracle Linux" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/oracle.png" alt="Oracle" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/powershel.png" alt="Powershell" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/Python.png" alt="Python" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/django-icon-0.png" alt="Django" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/bash.png" alt="Bash" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/awk.png" alt="AWK" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/jenkins.jpg" alt="Jenkins" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/pulumi.png" alt="Pulumi" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/gitlab.png" alt="Gitlab" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/github.png" alt="Github" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/sonarqube.png" alt="SonarQube" style="height:100px; margin: 8px 8px">
-                        <img src="assets/img/zabbix.png" alt="Zabbix" style="height:100px; margin: 8px 8px">
-                    </div>
-                <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!--Soft Skills-->
-            <section class="resume-section" id="soft-skils" style="width: 95%; padding-left: 5%;">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Soft Skills</h2>
-                    <ul>
-                        <li>Comunicación efectiva</li>
-                        <li>Trabajo en equipo</li>
-                        <li>Capacidad de análisis</li>
-                        <li>Capacidad de detección de riesgos</li>
-                        <li>Creatividad</li>
-                    </ul>
-                </div>
-            </section>
-            <!-- Interests-->
-            <section class="resume-section" id="interests" style="width: 95%; padding-left: 5%;">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Intereses</h2>
-                    <p>Aparte de ser un entusiasta tecnológico me gusta escuchar música preferentemente Rock y Metal en cualquiera de sus sabores, tambien ir a ver recitales en vivo. Mis bandas favoritas son Iron Maiden, Dream Theater, Bon Jovi</p> 
-                    <p>Amo el cine, me gusta ver Películas, Documentales y Biopics. Mis películas favoritas son El Padrino I y II, LOTR, Scarface, Harry Potter.</p>
-                    <p>Leo bastante, me gustan los generos de Historia, No Ficcion, SCI Fi. Mi últimos libros fueron When McKinsey Comes to Town de Walt Bogdanich & Michael Forsythe, Historia intelectual del siglo XX de Peter Watson, y ¿Quién domina el mundo? de Noam Chomsky.</p>
-                    <p>Fan empedernido del Anime, Adult Swim; Bojack Horseman y el Dulce de Leche.</p>
-                    <p>Muerte a las empanadas con pasas de uva, a la Pizza con Ananá y a la Pastafrola con Batata</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards" style="width: 95%; padding-left: 5%;">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Cursos</h2>
-                        <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Diplomatura de Django framework</b>
-                            <p class="mb-0">Centro de e-Learning UTN FRBA</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2022</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Programación en Base de Datos Oracle - Lenguaje PL-SQL</b>
-                            <p class="mb-0">Centro de e-Learning UTN FRBA</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Fundmentos de Bases de Datos</b>
-                            <p class="mb-0">Centro de e-Learning UTN FRBA</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Diplomatura en Programación .NET</b>
-                            <p class="mb-0">Universidad Tecnológica Nacional Facultad Regional Resistencia Chaco - UTN FRRe</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Programación .NET Web</b>
-                            <p class="mb-0">Universidad Tecnológica Nacional Facultad Regional Resistencia Chaco - UTN FRRe</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Programacion .Net</b>
-                            <p class="mb-0">Universidad Tecnológica Nacional Facultad Regional Resistencia Chaco - UTN FRRe</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Windows Server 2016: Active Directory and Group Policy, GPO</b>
-                            <p class="mb-0">Udemy</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Python 3 Scripting for System Administrators</b>
-                            <p class="mb-0">Linux Academy</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Linux Foundation Certified SysAdmin (LFCS)</b>
-                            <p class="mb-0">Linux Academy</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Elastic Search Essentials</b>
-                            <p class="mb-0">Linux Academy</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Essential Container Concepts</b>
-                            <p class="mb-0">Linux Academy</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>DevOps Essentials</b>
-                            <p class="mb-0">Linux Academy</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>AWK for SysAdmins</b>
-                            <p class="mb-0">Linux Academy</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2019</span></div>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <b>Bash for SysAdmins</b>
-                            <p class="mb-0">Linux Academy</p>
-                            <div class="flex-shrink-0"><span class="text-primary">2019</span></div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+<section id="projects" class="sec alt">
+  <div class="wrap">
+    <h2><span>02</span>Proyectos</h2>
+    <div class="grid projects">
+      <article class="card">
+        
+        <div class="card-body">
+          <div class="card-top"><h3>Base de conocimiento sobre investigaciones de incidentes</h3><span class="date">2026 · En diseño</span></div>
+          <p>Capa de búsqueda local para que un asistente de IA encuentre precedentes en cerca de 90 investigaciones de incidentes documentadas, en lugar de leer archivos completos o hacer grep a mano.</p><p>Diseñado junto con Claude (Anthropic), con la seguridad como requisito: índice de texto completo (SQLite FTS5, ranking BM25) local y fuera del control de versiones, solo metadatos para la evidencia pesada (unos 5,4 GB), y resultados compactos que se tratan como pistas y se verifican contra el archivo original antes de citarlos. La búsqueda semántica con embeddings queda planificada para cuando la búsqueda por palabras clave resulte insuficiente.</p>
+          <ul class="tags" aria-label="Tecnologías"><li>RAG seguro</li><li>Claude (Anthropic)</li><li>SQLite FTS5</li><li>BM25</li><li>Python</li></ul>
         </div>
-        <footer class="footer fixed-bottom bg-primary" style="font-family: var(--bs-font-sans-serif); color: var(--bs-gray-400);">
-            <p style="text-align: center; margin-top: 10px;">&copy; <script>new Date().getFullYear();document.write(new Date().getFullYear());</script>, Dante Paniagua </p>
-        </footer>
-        <!--Popper-->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="js/my-scripts.js"></script>
-    </body>
+      </article>
+      <article class="card">
+        
+        <div class="card-body">
+          <div class="card-top"><h3>Plataforma de gestión de tickets estilo ITIL</h3><span class="date">2026</span></div>
+          <p>Producto propio, desarrollado de forma individual: incidentes y solicitudes con máquina de estados y permisos por rol, integración con Jira por webhooks, motor de automatizaciones con disparadores y acciones, registro de auditoría y registro de horas con reportes.</p><p>Potencial de integración con IA: el motor de automatizaciones permite sumar un disparador que lea un documento y lo procese con Claude Code.</p><p>Más de 100 entregas versionadas en 17 semanas.</p>
+          <ul class="tags" aria-label="Tecnologías"><li>Python / Django</li><li>PostgreSQL</li><li>Docker</li><li>Jira (webhooks y API)</li><li>Integración con IA (potencial)</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        <img class="zoom shot" src="assets/img/jenkins_project_sites_github.png" alt="Esquema de CI/CD con Jenkins" loading="lazy">
+        <div class="card-body">
+          <div class="card-top"><h3>Pipelines CI/CD para dos productos</h3><span class="date">2024 - Actualidad</span></div>
+          <p>Diseño de los pipelines de integración y entrega continua de dos productos: uno en .NET Framework sobre IIS (Windows Server) y otro en Node.js con Docker sobre AWS ECS Fargate.</p><p>Más de 35 Jenkinsfiles que reutilizan una librería Groovy compartida. Cada cambio pasa por análisis estático con SonarQube y un quality gate, y las imágenes Docker se escanean con Trivy.</p><p>Un reporte de bugs por rango de commits generado con IA, y notificaciones del estado del despliegue por Telegram y Google Chat.</p><p>El resultado: despliegues más rápidos, pruebas automatizadas y mejor comunicación entre QA y Desarrollo.</p>
+          <ul class="tags" aria-label="Tecnologías"><li>Jenkins / Groovy</li><li>SonarQube</li><li>Trivy</li><li>Docker</li><li>AWS ECS Fargate</li><li>Azure VM</li><li>PowerShell</li><li>Windows Server</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        <img class="zoom shot" src="assets/img/infrestructura_tdc.png" alt="Diseño de infraestructura" loading="lazy">
+        <div class="card-body">
+          <div class="card-top"><h3>Diseño y despliegue de aplicaciones con Docker</h3><span class="date">2021</span></div>
+          <p>Diseño de los entornos para desplegar aplicaciones que serían centrales en el día a día de la organización: dos entornos, DESA (on-premise) y PROD (nube).</p><p>Contenedores analizados con Snyk, identidad provista por OpenLDAP, infraestructura monitoreada con Zabbix y backups con Bash + cron + rsync.</p><p>Integración en Python que genera y actualiza tickets en iTop a partir de los problemas de Zabbix.</p><p>La organización no contaba con herramientas de tickets, gestión ni mensajería. Esta implementación mejoró la productividad y el control en Operaciones y Gestión de Proyectos; RocketChat reemplazó a WhatsApp como medio de comunicación interna.</p>
+          <ul class="tags" aria-label="Tecnologías"><li>Docker</li><li>Linux</li><li>Zabbix</li><li>Bash + Ruby on Rails + Python</li><li>GitHub</li><li>NGINX</li><li>Snyk</li><li>OpenLDAP</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        
+        <div class="card-body">
+          <div class="card-top"><h3>Consolidación de logs de aplicaciones en la nube</h3><span class="date">2026</span></div>
+          <p>Centralización de los logs de las App Services de producción en un único Graylog, usando Event Hubs como bus de eventos, Logstash como consumidor y Terraform para la parte de Azure.</p><p>Piloto funcionando de punta a punta con tráfico real (decenas de millones de eventos por día), con análisis de dimensionamiento y costo para sumar los 8 servicios de producción.</p>
+          <ul class="tags" aria-label="Tecnologías"><li>Azure Event Hubs</li><li>Logstash</li><li>Graylog</li><li>Terraform</li><li>Azure App Services</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        
+        <div class="card-body">
+          <div class="card-top"><h3>Ambientes de bases de datos DEV automatizados en Azure</h3><span class="date">2026</span></div>
+          <p>Automatización con Terraform, Bash y Python que crea, para cada ticket de Jira, un ambiente de bases de datos aislado en Azure, para que cada desarrollador trabaje con datos similares a los de producción sin pisar los recursos compartidos de desarrollo.</p><p>Un solo comando restaura 4 bases Azure SQL y 2 cuentas de CosmosDB a partir del ambiente de desarrollo compartido, y escribe 34 claves de Azure App Configuration por desarrollador. La autenticación usa una identidad administrada, sin secretos de service principal en el servidor.</p><p>Otro comando elimina el ambiente respetando el orden de dependencias y deja un registro de lo eliminado. Un reporte HTML muestra los ambientes activos y eliminados por ticket y por desarrollador, y al terminar cada aprovisionamiento se avisa al desarrollador mediante un webhook de Google Chat.</p>
+          <ul class="tags" aria-label="Tecnologías"><li>Terraform</li><li>Azure SQL</li><li>CosmosDB</li><li>Azure App Configuration</li><li>Bash</li><li>Python</li><li>Webhooks de Google Chat</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        
+        <div class="card-body">
+          <div class="card-top"><h3>Extracción y análisis de precios y avisos web</h3><span class="date">2026</span></div>
+          <p>Herramientas de línea de comandos que extraen datos de 10 cadenas de supermercados argentinos y de 12 concesionarias de autos usados, cada una con una tecnología distinta (HTML, SPAs, APIs).</p><p>Guardan el historial de precios en SQLite y generan informes comparativos para decidir compras.</p>
+          <ul class="tags" aria-label="Tecnologías"><li>Python</li><li>Playwright</li><li>SQLite</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        
+        <div class="card-body">
+          <div class="card-top"><h3>Portfolio personal (este sitio)</h3><span class="date">2023</span></div>
+          <p>Fork del repositorio <a href="https://github.com/StartBootstrap/startbootstrap-resume">startbootstrap-resume</a> al que se le agregó Javascript, CSS y HTML.</p>
+          <ul class="tags" aria-label="Tecnologías"><li>GitHub</li><li>HTML5</li><li>CSS</li><li>Javascript</li><li>Bootstrap 5</li></ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <div class="wrap">
+    <h2><span>03</span>Skills</h2>
+    <p class="sub">Lenguajes, Tecnologías y Herramientas</p>
+    <div class="logos">
+      <img src="assets/img/azure.png" alt="Microsoft Azure" title="Microsoft Azure" loading="lazy">
+      <img src="assets/img/windows-server.png" alt="Windows Server" title="Windows Server" loading="lazy">
+      <img src="assets/img/microsoft-sql-server-logo.svg" alt="SQL Server" title="SQL Server" loading="lazy">
+      <img src="assets/img/ubuntu.png" alt="Ubuntu" title="Ubuntu" loading="lazy">
+      <img src="assets/img/oracle_linux.jpg" alt="Oracle Linux" title="Oracle Linux" loading="lazy">
+      <img src="assets/img/oracle.png" alt="Oracle" title="Oracle" loading="lazy">
+      <img src="assets/img/powershel.png" alt="PowerShell" title="PowerShell" loading="lazy">
+      <img src="assets/img/Python.png" alt="Python" title="Python" loading="lazy">
+      <img src="assets/img/django-icon-0.png" alt="Django" title="Django" loading="lazy">
+      <img src="assets/img/bash.png" alt="Bash" title="Bash" loading="lazy">
+      <img src="assets/img/awk.png" alt="AWK" title="AWK" loading="lazy">
+      <img src="assets/img/jenkins.jpg" alt="Jenkins" title="Jenkins" loading="lazy">
+      <img src="assets/img/terraform.png" alt="Terraform" title="Terraform" loading="lazy">
+      <img src="assets/img/docker_official_logo_icon_169250.png" alt="Docker" title="Docker" loading="lazy">
+      <img src="assets/img/nginx.png" alt="NGINX" title="NGINX" loading="lazy">
+      <img src="assets/img/pulumi.png" alt="Pulumi" title="Pulumi" loading="lazy">
+      <img src="assets/img/gitlab.png" alt="GitLab" title="GitLab" loading="lazy">
+      <img src="assets/img/github.png" alt="GitHub" title="GitHub" loading="lazy">
+      <img src="assets/img/sonarqube.png" alt="SonarQube" title="SonarQube" loading="lazy">
+      <img src="assets/img/zabbix.png" alt="Zabbix" title="Zabbix" loading="lazy">
+    </div>
+    <ul class="tags big"><li>Jenkins</li><li>CI/CD</li><li>Azure</li><li>AWS (ECS/Fargate)</li><li>Terraform</li><li>Docker</li><li>SonarQube</li><li>Trivy</li><li>Zabbix</li><li>Graylog</li><li>Python</li><li>PowerShell</li><li>Bash</li><li>Groovy</li><li>SQL Server</li><li>PostgreSQL</li><li>Keycloak</li><li>Linux</li><li>Windows Server</li></ul>
+    <div class="two">
+      <div><h3 class="mini">Habilidades Blandas</h3><ul class="tags"><li>Comunicación efectiva</li><li>Trabajo en equipo</li><li>Capacidad de análisis</li><li>Capacidad de detección de riesgos</li><li>Creatividad</li></ul></div>
+      <div><h3 class="mini">Workflow</h3><ul class="tags"><li>Equipos multidisciplinarios</li><li>Desarrollo ágil y Scrum</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="interests" class="sec alt">
+  <div class="wrap narrow">
+    <h2><span>04</span>Intereses</h2>
+    <p>Fuera de la pantalla, lo mío es la música: Rock y Metal en todos sus sabores, y si es en vivo, mejor. Iron Maiden y Dream Theater nunca fallan.</p><p>Me gusta el cine (películas, documentales y biopics) y leo bastante: historia, no ficción y ciencia ficción. Lo último que leí fue <i>When McKinsey Comes to Town</i> y <i>Historia intelectual del siglo XX</i>.</p><p>El anime, Bojack Horseman y el dulce de leche completan el cuadro. Y sí, tengo opiniones firmes sobre la pizza con ananá y las empanadas con pasas de uva.</p>
+  </div>
+</section>
+
+<section id="courses" class="sec">
+  <div class="wrap">
+    <h2><span>05</span>Cursos</h2>
+    <div class="grid courses">
+      <div class="course"><b>Certificación Universitaria de DevOps</b><p>MundosE</p></div>
+      <div class="course"><b>LPI Linux Essentials</b><p>LPI</p></div>
+      <div class="course"><b>Gestión de Redes</b><span class=date>2019</span></div>
+      <div class="course"><b>LACNIC IPv6 Básico</b><p>LACNIC</p></div>
+      <div class="course"><b>Diplomatura de Django framework</b><p>Centro de e-Learning UTN FRBA</p><span class=date>2022</span></div>
+      <div class="course"><b>Programación en Base de Datos Oracle - Lenguaje PL-SQL</b><p>Centro de e-Learning UTN FRBA</p><span class=date>2021</span></div>
+      <div class="course"><b>Fundamentos de Bases de Datos</b><p>Centro de e-Learning UTN FRBA</p><span class=date>2021</span></div>
+      <div class="course"><b>Diplomatura en Programación .NET</b><p>Universidad Tecnológica Nacional Facultad Regional Resistencia Chaco - UTN FRRe</p><span class=date>2021</span></div>
+      <div class="course"><b>Programación .NET Web</b><p>Universidad Tecnológica Nacional Facultad Regional Resistencia Chaco - UTN FRRe</p><span class=date>2021</span></div>
+      <div class="course"><b>Programación .Net</b><p>Universidad Tecnológica Nacional Facultad Regional Resistencia Chaco - UTN FRRe</p><span class=date>2021</span></div>
+      <div class="course"><b>Windows Server 2016: Active Directory and Group Policy, GPO</b><p>Udemy</p><span class=date>2020</span></div>
+      <div class="course"><b>Python 3 Scripting for System Administrators</b><p>Linux Academy</p><span class=date>2020</span></div>
+      <div class="course"><b>Linux Foundation Certified SysAdmin (LFCS)</b><p>Linux Academy</p><span class=date>2020</span></div>
+      <div class="course"><b>Elastic Search Essentials</b><p>Linux Academy</p><span class=date>2020</span></div>
+      <div class="course"><b>Essential Container Concepts</b><p>Linux Academy</p><span class=date>2020</span></div>
+      <div class="course"><b>DevOps Essentials</b><p>Linux Academy</p><span class=date>2020</span></div>
+      <div class="course"><b>AWK for SysAdmins</b><p>Linux Academy</p><span class=date>2019</span></div>
+      <div class="course"><b>Bash for SysAdmins</b><p>Linux Academy</p><span class=date>2019</span></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap">&copy; <script>document.write(new Date().getFullYear());</script> Dante Paniagua · <a href="#about">Volver arriba ↑</a><p class="disclaimer">Esta página fue creada por Claude, analizando y describiendo algunos de mis proyectos.</p></div></footer>
+<div id="lightbox" class="lightbox" hidden><img alt=""><p></p></div>
+<script src="js/modern.js"></script>
+</body>
 </html>
